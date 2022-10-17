@@ -89,7 +89,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  gap: 1rem;
+  gap: 2.2rem;
   height: 81px;
   width: 279px;
   border-radius: 11px;
@@ -115,9 +115,11 @@ top: 0px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.1rem;
   height: 40px;
   width: 81px;
   flex-direction: column;
+  padding-right: 2rem;
 }
 
 .plan h2 {
@@ -131,4 +133,47 @@ top: 0px; */
   text-align: left;
   color: rgba(31, 46, 85, 1);
   font-style: normal;
+  /* position: absolute;
+  left: 0%;
+  right: -9.46%;
+  top: calc(50% - 19px / 2 - 10.5px); */
 }
+
+.plan p {
+  height: 19px;
+  width: 81px;
+  color: rgba(113, 127, 166, 1);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0;
+}
+
+a {
+  height: 17px;
+  width: 48px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0;
+  color: rgba(56, 42, 225, 1);
+  text-decoration-line: underline;
+  font-style: normal;
+}
+
+.btn-close {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 50px;
+  width: 279px;
+  border-radius: 11px;
+  background-color: rgba(56, 42, 225, 1);
+  box-shadow: 0 20px 20px 0 rgba(56, 42, 225, 0.1903);
+}
+
+.
