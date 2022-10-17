@@ -7,3 +7,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
+@media (min-width: 1440px) {
+  .container {
+    height: 900px;
+    width: 1440px;
+    left: 1057px;
+    top: -450px;
+    border-radius: 0;
+    background: rgba(224, 232, 255, 1);
+    position: relative;
+  }
+
+  .path {
+    height: 427px;
+    width: 1440px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    background: rgba(214, 225, 255, 1);
+    position: absolute;
+  }
+}
