@@ -8,25 +8,127 @@
   box-sizing: border-box;
 }
 
+.container {
+  height: 100vh;
+  width: 375px;
+  background-color: rgba(224, 232, 255, 1);
+  position: relative;
+  margin: 0 auto;
+}
 
-@media (min-width: 1440px) {
-  .container {
-    height: 900px;
-    width: 1440px;
-    left: 1057px;
-    top: -450px;
-    border-radius: 0;
-    background: rgba(224, 232, 255, 1);
-    position: relative;
-  }
+.path-Mobile {
+  background-image: url('./images/pattern-background-mobile.svg'), rgba(214, 225, 255, 1);
+  position: absolute;
+  width: 375px;
+  height: 190px;
+  left: 0;
+  top: 0;
+}
 
-  .path {
-    height: 427px;
-    width: 1440px;
-    left: 0;
-    top: 0;
-    border-radius: 0;
-    background: rgba(214, 225, 255, 1);
-    position: absolute;
-  }
+.content {
+  height: 567px;
+  width: 327px;
+  left: 24px;
+  top: 71px;
+  border-radius: 0;
+  position: absolute;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.image {
+  background-image: url('./images/illustration-hero.svg');
+  height: 160px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: 8px 8px 0 0;
+
+}
+
+.wordings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wordings h1 {
+  height: 29px;
+  width: 263px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: center;
+  color: rgba(31, 46, 85, 1);
+  margin: 2rem 2rem 1rem 2rem;
+}
+
+.wordings p {
+  height: 75px;
+  width: 263px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(113, 127, 166, 1);
+  margin: 0 2rem 1.5rem 2rem;
+  /* position: absolute;
+  left: 9.79%;
+  right: 9.79%;
+  top: calc(50% - 75px / 2 - 9px); */
+}
+
+.icon-plan__choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+  height: 81px;
+  width: 279px;
+  border-radius: 11px;
+  background-color: rgba(247, 249, 255, 1);
+  /* position: absolute;
+  left: 7.34%;
+  right: 7.34%;
+  top: 59.26%;
+  bottom: 26.46%; */
+}
+
+.icon-plan__choice .music {
+  height: 48px;
+  width: 48px;
+  /* position: absolute;
+width: 48px;
+height: 48px;
+left: 0px;
+top: 0px; */
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 81px;
+  flex-direction: column;
+}
+
+.plan h2 {
+  height: 19px;
+  width: 88.7px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0;
+  text-align: left;
+  color: rgba(31, 46, 85, 1);
+  font-style: normal;
 }
