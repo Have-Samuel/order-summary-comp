@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Red+Hat+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Red+Hat+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 * {
   padding: 0;
@@ -17,13 +15,13 @@
 }
 
 .path {
-  background: url('./images/pattern-background-mobile.svg');
-  background-color: rgb(214, 225, 255, 1);
+  background: url('./images/pattern-background-mobile.svg'), rgb(214, 225, 255, 1);
   position: absolute;
   width: 375px;
   height: 190px;
   left: 0;
   top: 0;
+  /* color: black; */
   border: 2px solid red;
 }
 
@@ -39,6 +37,8 @@
 
 .image {
   background-image: url('./images/illustration-hero.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   height: 160px;
   width: 327px;
   border-radius: 8px 8px 0 0;
@@ -183,15 +183,15 @@
     width: 100vw;
   }
 
-  .path-Mobile {
+  .path {
     background: url('./images/pattern-background-desktop.svg');
     background-color: rgba(214, 225, 255, 1);
     position: absolute;
     left: 0;
     top: 0;
-    height: 427.33px;
-    width: 1200px;
-    border: 3px solid green;
+    height: 45vh;
+    width: 100vw;
+    /* border: 3px solid green; */
   }
 
   .content {
