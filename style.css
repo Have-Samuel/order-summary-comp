@@ -30,7 +30,6 @@
   width: 327px;
   left: 24px;
   top: 71px;
-  border-radius: 0;
   position: absolute;
   border-radius: 20px;
   background: rgba(255, 255, 255, 1);
@@ -40,10 +39,7 @@
   background-image: url('./images/illustration-hero.svg');
   height: 160px;
   width: 327px;
-  left: 0;
-  top: 0;
   border-radius: 8px 8px 0 0;
-
 }
 
 .wordings {
@@ -54,8 +50,6 @@
 }
 
 .wordings h1 {
-  height: 29px;
-  width: 263px;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 22px;
   font-weight: 900;
@@ -91,11 +85,6 @@
   border-radius: 11px;
   background-color: rgba(247, 249, 255, 1);
 }
-
-/* .icon-plan__choice .music {
-  height: 48px;
-  width: 48px;
-} */
 
 .plan {
   display: flex;
