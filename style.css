@@ -130,6 +130,11 @@
   font-style: normal;
 }
 
+.choice:hover,
+.choice:active {
+  color: rgba(118, 108, 241, 1);
+}
+
 .btn-close {
   height: 50px;
   width: 279px;
@@ -150,6 +155,11 @@
   text-decoration-line: none;
 }
 
+.btn-close:hover,
+.btn-close:active {
+  background-color: rgba(118, 108, 241, 1);
+}
+
 .close {
   width: 96px;
   font-family: 'Red Hat Display', sans-serif;
@@ -157,4 +167,9 @@
   font-weight: 900;
   margin: 1.5rem auto;
   color: #717fa6;
+}
+
+.close:hover,
+.close:active {
+  color: rgba(31, 46, 85, 1);
 }
