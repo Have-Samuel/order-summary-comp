@@ -21,13 +21,14 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
+  ## mobile 
 ![](./images/OrderMobile.png)
+  ## Desktop
 ![](./images/order-Desktop.png)
 
 ### Links
 
-- [](https://github.com/Have-Samuel/order-summary-comp)
+- [Github](https://github.com/Have-Samuel/order-summary-comp)
 - [Live Link]()
 
 ### Built with
