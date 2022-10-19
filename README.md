@@ -8,12 +8,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+  - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -26,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/OrderMoblie.png)
-![](./images/orderDesktop.png)
+![](./images/OrderMobile.png)
+![](./images/order-Desktop.png)
 
 ### Links
 
@@ -63,7 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Thanks to Frontend Mentor
-- 👋 Thumbs Up to @Trekab
+- 👋 Thumbs Up to [@Trekab](https://github.com/trekab?tab=overview&from=2020-12-01&to=2020-12-31)
 - etc
 
 ## 📝 License
