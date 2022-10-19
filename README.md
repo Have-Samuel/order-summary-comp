@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/order-summary-comp)
-- [Live Link]()
+- [Live Link](https://candid-order-summary-card.netlify.app/)
 
 ### Built with
 
