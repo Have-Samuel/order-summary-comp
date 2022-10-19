@@ -7,38 +7,38 @@
 }
 
 .container {
+  margin: auto;
   height: 100vh;
   width: 375px;
   background-color: rgba(224, 232, 255, 1);
   position: relative;
-  margin: 0 auto;
 }
 
 .path {
-  background: url('./images/pattern-background-mobile.svg'), rgb(214, 225, 255, 1);
+  background: url('./images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   width: 375px;
   height: 190px;
   left: 0;
   top: 0;
-  /* color: black; */
-  border: 2px solid red;
 }
 
 .content {
+  position: absolute;
+  left: 24px;
+  top: 60px;
   height: 567px;
   width: 327px;
-  left: 24px;
-  top: 71px;
-  position: absolute;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 1);
+  background-color: #fff;
 }
 
 .image {
   background-image: url('./images/illustration-hero.svg');
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-size: contain;
   height: 160px;
   width: 327px;
   border-radius: 8px 8px 0 0;
@@ -185,16 +185,17 @@
 
   .path {
     background: url('./images/pattern-background-desktop.svg');
-    background-color: rgba(214, 225, 255, 1);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    background-origin: content-box;
     position: absolute;
     left: 0;
     top: 0;
-    height: 45vh;
+    height: 427.33px;
     width: 100vw;
-    /* border: 3px solid green; */
   }
 
   .content {
-    margin: 0 495px;
+    margin: auto 40%;
   }
 }
